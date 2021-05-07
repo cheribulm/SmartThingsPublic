@@ -35,8 +35,12 @@ metadata {
 		fingerprint profileId: "0104", deviceId: "010C", inClusters: "0006, 0008, 0300", deviceJoinName: "Light" //Generic Color Temperature Light
 
 		// ABL
-		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Samsung Electronics", model: "ABL-LIGHT-Z-001", deviceJoinName: "Wafer", mnmn: "Samsung Electronics", vid: "ABL-LIGHT-Z-001" //Wafer
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Samsung Electronics", model: "ABL-LIGHT-Z-001", deviceJoinName: "Juno Connect", mnmn: "Samsung Electronics", vid: "ABL-LIGHT-Z-001" //Wafer
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Juno", model: "ABL-LIGHT-Z-001", deviceJoinName: "Juno Connect", mnmn: "Samsung Electronics", vid: "ABL-LIGHT-Z-001"
 
+		// Samsung LED
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Samsung Electronics", model: "SAMSUNG-ITM-Z-001", deviceJoinName: "Samsung Light", mnmn: "Samsung Electronics", vid: "SAMSUNG-ITM-Z-001" //ITM CCT
+		
 		// AduroSmart
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 1000", outClusters: "0019", deviceId: "010C", manufacturer: "AduroSmart Eria", model: "AD-ColorTemperature3001", deviceJoinName: "Eria Light" //Eria ZigBee Color Temperature Bulb
 
@@ -97,7 +101,7 @@ metadata {
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, FC0F", outClusters: "0019", manufacturer: "OSRAM", model: "LIGHTIFY Under Cabinet TW", deviceJoinName: "SYLVANIA Light" //SYLVANIA Smart Under Cabinet TW
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 0B05, FC01", outClusters: "0019", manufacturer: "LEDVANCE", model: "BR30 TW", deviceJoinName: "SYLVANIA Light" //SYLVANIA Smart+ Adustable White BR30
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 0B05, FC01", outClusters: "0019", manufacturer: "LEDVANCE", model: "RT TW", deviceJoinName: "SYLVANIA Light" //SYLVANIA Smart+ Adustable White RT5/6
-		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, FC0F", outClusters: "0019", manufacturer: "OSRAM", model: "LIGHTIFY Edge-lit flushmount", deviceJoinName: "SYLVANIA Light" //SYLVANIA SMART+ Flush Mount
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, FC0F", outClusters: "0019", manufacturer: "OSRAM", model: "LIGHTIFY Edge-lit flushmount", deviceJoinName: "SYLVANIA Light", mnmn: "SmartThings", vid: "generic-color-temperature-ceiling-light-2700K-6500K" //SYLVANIA SMART+ Flush Mount
 
 		// Leedarson
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 0B05, 1000, FEDC", outClusters: "000A, 0019", manufacturer: "Smarthome", model: "S111-202A", deviceJoinName: "Leedarson Light" //Leedarson Tunable White Bulb A19
@@ -117,6 +121,9 @@ metadata {
 		// Third Reality
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Third Reality, Inc", model: "3RSL011Z", deviceJoinName: "RealityLight Light" //RealityLight
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Third Reality, Inc", model: "3RSL012Z", deviceJoinName: "RealityLight Light" //RealityLight
+
+		// Ajax Online
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 1000", outClusters: "0019", manufacturer: "Ajax Online", model: "CCT", deviceJoinName: "Ajax Light", mnmn: "SmartThings", vid: "generic-color-temperature-bulb-2200K-6500K" // Ajax Online Filament Bulb
 	}
 
 	// UI tile definitions
